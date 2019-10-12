@@ -6,7 +6,11 @@
             "email": "axd5201211@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^1.25",
+        "nesbot/carbon":"^1.21"
+
+    },
     "autoload": {
         "psr-4": {
             "Demo\\": "./src/Demo"
